@@ -1,0 +1,52 @@
+body{
+  font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+
+
+}
+.left_section{
+  flex: 1;
+  background: white;
+  box-shadow:-5px 0 5px rgba(0 ,0 , 0, 0.2), 5px 5px 5px rgba(0 ,0 , 0, 0.2) ;
+  padding :20px;
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+}
+h1{
+    font-size: 30px;
+}
+#cats{
+    cursor: pointer;
+}
+.content{
+    flex: 4;
+    background:white ;
+    box-shadow:-5px 0 5px rgba(0 ,0 , 0, 0.2), 5px 5px 5px rgba(0 ,0 , 0, 0.2) ;
+    padding: 20px;
+
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product img{
+    height: 200px;
+    width: 150px;
+    padding-bottom: 20px;
+   
+}
+.name{
+    font-weight: 550;
+    color: #2874f0;
+}
+.price{
+    font-weight: 500;
+    color: #2874f0;
+}
